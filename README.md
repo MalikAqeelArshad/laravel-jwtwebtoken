@@ -75,6 +75,7 @@ Required post parameters `role`, `name`, `email` and `password`. role can be `su
 
 4. To view all questions, and To search by user name or question status (Authenticated)
    `127.0.0.1:8000/api/questions?token=VALID_TOKEN`: GET method
+   
    `127.0.0.1:8000/api/questions?token=VALID_TOKEN&name=USER_NAME&status=QUESTION_STATUS_ID`: GET method
 
     **Description**: To view all questions created by the logged in user and support user can see all questions
@@ -108,7 +109,7 @@ Required post parameters `role`, `name`, `email` and `password`. role can be `su
 
 If you want to check email after repling the any question please set these credentials:
 
-`
+```env
 MAIL_MAILER=smtp
 MAIL_MAILER=smtp
 MAIL_HOST=smtp.mailtrap.io
@@ -116,7 +117,7 @@ MAIL_PORT=2525
 MAIL_USERNAME=mailtrap_username
 MAIL_PASSWORD=mailtrap_passsword
 MAIL_ENCRYPTION=tls
-`
+```
 
 ## Note: Run the schedule command
 

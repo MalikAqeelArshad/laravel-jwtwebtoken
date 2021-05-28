@@ -71,11 +71,13 @@ Required post parameters `email` and `password`
 Required post parameters `role`, `name`, `email` and `password`. role can be `support or customer`
 
 3. User (Authenticated)
+
    `127.0.0.1:8000/api/auth/profile?token=VALID_TOKEN`: GET method
 
 4. To view all questions, and To search by user name or question status (Authenticated)
+
    `127.0.0.1:8000/api/questions?token=VALID_TOKEN`: GET method
-   
+
    `127.0.0.1:8000/api/questions?token=VALID_TOKEN&name=USER_NAME&status=QUESTION_STATUS_ID`: GET method
 
     **Description**: To view all questions created by the logged in user and support user can see all questions

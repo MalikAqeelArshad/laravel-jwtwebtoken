@@ -3,7 +3,7 @@
 ## Step 1: Download project from Github
 
 ```bash
-git clone origin https://github.com/MalikAqeelArshad/ride-to-the-future.git
+git clone https://github.com/MalikAqeelArshad/ride-to-the-future.git
 ```
 
 Then navigate to `ride-to-the-future` directory. Open this project in your favorite text editor or IDE like Visual Studio Code/vim/Sublime Text or PHPStorm.

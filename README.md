@@ -3,10 +3,10 @@
 ## Step 1: Download project from Github
 
 ```bash
-git clone https://github.com/MalikAqeelArshad/ride-to-the-future.git
+git clone https://github.com/MalikAqeelArshad/laravel-jwtwebtoken.git
 ```
 
-Then navigate to `ride-to-the-future` directory. Open this project in your favorite text editor or IDE like Visual Studio Code/vim/Sublime Text or PHPStorm.
+Then navigate to `laravel-jwtwebtoken` directory. Open this project in your favorite text editor or IDE like Visual Studio Code/vim/Sublime Text or PHPStorm.
 
 ## Step 2: Copy .env.example to .env and Update Database credentials in environmental file
 
@@ -129,6 +129,6 @@ If you want to check all the question status are changed or not please following
 php artisan schedule:run
 ```
 
-If you face any difficulty, please contact me: `0569369306` or email `malik.aqeelarshad@gmail.com`
+If you face any difficulty, please contact me: `+971569369306` or email `malik.aqeelarshad@gmail.com`
 
 # Thanks
